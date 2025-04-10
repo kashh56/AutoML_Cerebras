@@ -22,9 +22,6 @@
 
 <p align="center">
   <a href="https://python.langchain.com/"><img src="https://img.shields.io/badge/Made%20with-LangChain-00A86B.svg" alt="Made with LangChain"></a>
-  <a href="https://smith.langchain.com/"><img src="https://img.shields.io/badge/Monitored%20with-LangSmith-7742DD.svg" alt="Monitored with LangSmith"></a>
-  <a href="https://ai.google.dev/"><img src="https://img.shields.io/badge/Powered%20by-Google%20Gemini-4285F4.svg" alt="Powered by Google Gemini"></a>
-  <a href="https://groq.com/"><img src="https://img.shields.io/badge/Powered%20by-Groq-6236FF.svg" alt="Powered by Groq"></a>
   <a href="https://www.python-dotenv.org/"><img src="https://img.shields.io/badge/Made%20with-python--dotenv-2E7D32.svg" alt="Made with python-dotenv"></a>
   <a href="https://pickle.readthedocs.io/"><img src="https://img.shields.io/badge/Uses-pickle-8BC34A.svg" alt="Uses pickle"></a>
 </p>
@@ -85,7 +82,7 @@
   - Classification: Accuracy, Precision, Recall, F1-Score, ROC-AUC, Confusion Matrix
   - Regression: MAE, MSE, RMSE, R², Residual Plots
   
-- 🔍 **AI-powered Data Insights**: Leverage Google's Gemini for intelligent data analysis
+- 🔍 **AI-powered Data Insights**: Leverage llama-4 powered by Cerebras for intelligent data analysis
   - Natural language explanations of model decisions
   - Automated feature importance interpretation
   - Data quality assessment
@@ -102,9 +99,8 @@
 ### Prerequisites
 
 - Python 3.8 or higher
-- Google API key for Gemini for data insights and dataframe cleaning
-- Groq API key for LLM based test results analysis
-- langsmith API for monitoring llm calls
+- Cerbras API key for Llama-4 for data insights and dataframe cleaning
+
 
 ### Setup
 
@@ -237,7 +233,7 @@ Auto-ML/
 
 
 
-6\. Model Deployment Pipeline
+4\. Model Deployment Pipeline
 -----------------------------
 
 **Purpose:** Makes the model available for real-world usage.
@@ -256,11 +252,10 @@ AutoML implements a robust feedback and fallback system to ensure reliability:
    - Detailed logs of transformations applied to the data
 
 2. **LLM Fallback Mechanism**: For AI-powered insights and data analysis
-   - Primary attempt uses advanced LLMs (Google Gemini/Groq)
+   - Primary attempt uses advanced LLMs (LLama-4/Cerebras)
    - Automatic fallback to rule-based algorithms if LLM fails
    - Graceful degradation to ensure core functionality remains available
    - Error logging and reporting for continuous improvement
-   - LangSmith integration for monitoring and tracking all LLM calls
 
 3. **Error Feedback Loop**: Intelligent error handling during data cleaning
    - Automatically captures errors that occur during data cleaning operations
@@ -297,12 +292,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Scikit-learn](https://scikit-learn.org/) for machine learning algorithms
 - [Pandas](https://pandas.pydata.org/) for data manipulation
 - [Plotly](https://plotly.com/) for interactive visualizations
-- [Google Gemini](https://ai.google.dev/) for AI-powered insights
+- [Cerebras](https://www.cerebras.ai/) for AI-powered insights
 - [XGBoost](https://xgboost.readthedocs.io/) for gradient boosting
 - [Seaborn](https://seaborn.pydata.org/) for statistical visualizations
 - [LangChain](https://python.langchain.com/) for large language model integration
 - [LangSmith](https://smith.langchain.com/) for LLM call tracking and monitoring
-- [Groq](https://groq.com/) for high-performance computing
 
 ---
 
