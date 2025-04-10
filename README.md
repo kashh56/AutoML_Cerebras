@@ -1,6 +1,6 @@
 <!-- Custom header with green glow effect -->
 <p align="center">
-  <img src="header.svg" alt="AutoML - Automated Machine Learning Platform" width="800" />
+  <img src="header.svg" alt="AutoML - Automated Machine Learning Platform Powered by Cerebras" width="800" />
 </p>
 
 <p>
@@ -9,6 +9,7 @@
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg" alt="Made with Python"></a>
   <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Made%20with-Streamlit-FF4B4B.svg" alt="Made with Streamlit"></a>
   <a href="https://scikit-learn.org/"><img src="https://img.shields.io/badge/Made%20with-Scikit--Learn-F7931E.svg" alt="Made with Scikit-Learn"></a>
+  <a href="https://www.cerebras.net/"><img src="https://img.shields.io/badge/Made%20with-Cerebras-F7931E.svg" alt="Made with Cerebras"></a>
 </p>
 
 <p align="center">
@@ -27,7 +28,7 @@
 </p>
 
 <p align="center">
-  <b>AutoML</b> is a powerful tool for automating the end-to-end process of applying machine learning to real-world problems. It simplifies the process of model selection, hyperparameter tuning, and downloading, making machine learning accessible to everyone.
+  <b>AutoML</b> is a powerful tool powered by cerbras inference for automating the end-to-end process of applying machine learning to real-world problems. It simplifies the process of model selection, hyperparameter tuning, and downloading, making machine learning accessible to everyone.
 </p>
 
 ## 🔗 Live Demo
