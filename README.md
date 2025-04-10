@@ -43,18 +43,6 @@
   Check out the live demo of AutoML and experience the power of automated machine learning firsthand!
 </p>
 
-## 🎬 Video Showcase
-
-<p align="center">
-  <video width="800" controls>
-    <source src="demo-video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
-
-<p align="center">
-  <em>See AutoML in action: This demonstration shows how to analyze data, train models, and get AI-powered insights in minutes!</em>
-</p>
 
 ## ✨ Features
 
